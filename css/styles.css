@@ -53,3 +53,20 @@ a{
     margin: auto;
     background-color: chocolate;    
 }
+.portada{
+    width: "100%";
+    height:"650px";
+}
+.portada_imagen_fondo{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 650px;
+}
+.portada_logo_seviesoftware img{
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    width: 400px;
+    height: 400px;
+}
