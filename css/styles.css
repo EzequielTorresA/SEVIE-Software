@@ -88,7 +88,7 @@ a {
 .encabezado2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
-  margin-top: 10px;
+  margin: 10px;
 }
 .encabezado3 {
   font-family: Arial, Helvetica, sans-serif;
@@ -100,7 +100,7 @@ a {
 /* Galeria */
 .galeria {
   width: 90%;
-  background-color: darkblue;
+  /*background-color: darkblue;*/
   height: 800px;
   margin: auto;
   display: flex;
@@ -113,6 +113,18 @@ a {
   margin: auto;
   display: flex;
   flex-grow: 1;
+}
+.galeria_izquierda img {
+  width: 655px;
+  height: 720px;
+  position: absolute;
+  margin: 15px;
+}
+.galeria_izquierda_imagen {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  background-image: url(media/productos_titulo_2.jpg);
 }
 .galeria_derecha {
   background-color: darkkhaki;
@@ -128,6 +140,12 @@ a {
   height: auto;
   flex-grow: 1;
 }
+.galeria_derecha_superior img {
+  position: absolute;
+  height: 340px;
+  width: 655px;
+  margin: 15px;
+}
 .galeria_derecha_inferior {
   background-color: chartreuse;
   display: flex;
@@ -141,11 +159,23 @@ a {
   height: auto;
   flex-grow: 1;
 }
+.g_d_i_izquierda img {
+  position: absolute;
+  height: 340px;
+  width: 310px;
+  margin: 15px;
+}
 .g_d_i_derecha {
   background-color: darkslategrey;
   display: flex;
   height: auto;
   flex-grow: 1;
+}
+.g_d_i_derecha img {
+  position: absolute;
+  height: 340px;
+  width: 310px;
+  margin: 15px;
 }
 /* Opiniones */
 .opiniones {
@@ -183,6 +213,14 @@ a {
   flex-grow: 1;
   height: auto;
 }
+.opiniones_superior_izquierda img {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 70px;
+  border-radius: 10px;
+}
 .opiniones_superior_derecha {
   background-color: darkseagreen;
   display: flex;
@@ -211,17 +249,23 @@ a {
 /* Regitro Inferior*/
 .registro_inferior {
   background-color: rgb(255, 233, 166);
-  height: 500px;
+  height: 340px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.registro_inferior img {
+  height: 340px;
+  width: 100%;
+}
 .registro_inferior_encabezado {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 40px;
+  font-size: 80px;
   margin: 30px;
   font-weight: 900;
   text-transform: uppercase;
+  position: absolute;
+  color: #ffffff;
 }
 .registro_inferior_boton {
   background-color: rgb(68, 210, 168);
@@ -232,6 +276,8 @@ a {
   text-decoration: none;
   font-size: 30px;
   cursor: pointer;
+  position: absolute;
+  margin-top: 200px;
 }
 .footer {
   background-color: rgb(47, 157, 197);
