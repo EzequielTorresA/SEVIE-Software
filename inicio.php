@@ -42,15 +42,15 @@
         <!-- Galería -->
         <div class="galeria">
             <div class="galeria_izquierda">
-                <img src="media/productos_titulo_2_v2.png" alt="Imagen de título 1">
+                <a href="producto1.php"><img src="media/productos_titulo_2_v2.png" alt="Imagen de título 1"></a>
             </div>
             <div class="galeria_derecha">
                <div class="galeria_derecha_superior">
-                   <img src="media/productos_titulo_1.jpg" alt="Imágen de título 2">
+                   <a href="producto2.php"><img src="media/productos_titulo_1.jpg" alt="Imágen de título 2"></a>
                </div>
                 <div class="galeria_derecha_inferior">
                     <div class="g_d_i_izquierda">
-                        <img src="media/productos_titulo_3.jpg" alt="Imágen de títuo 3">
+                        <a href="producto3.php"><img src="media/productos_titulo_3.jpg" alt="Imágen de títuo 3"></a>
                     </div>
                     <div class="g_d_i_derecha">
                         <img src="media/productos_titulo_4_v2.jpg" alt="Imágen de título 4">
@@ -78,7 +78,7 @@
                 </div>
             </div>
         </div>
-    -->
+         -->
         <!-- Registro Inferior -->
         <div class="registro_inferior">
             <img src="media/gif_ComienzaAventura1.gif" alt="GIF Final">
